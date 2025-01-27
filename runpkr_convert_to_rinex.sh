@@ -3,15 +3,15 @@
  # Preparer par Renaldo Sauveur
  # ce script permet d'aller dans tous les sous repertoires du repertoire en cours et de convertir en .tgd tous les fichiers .T02 de format (1808020100I.T02). Ensuite de convertir en rinex ces fichiers .tgd.
   
- # Il faut modifier l'annee (2019) et le nom de la station (PAPR) en fonction de .........
+ # Il faut modifier l'année (2019) et le nom de la station (PAPR) en fonction de .........
 
 echo Entrer le nom de la station GPS en majuscule, exemple PAPR : 
 read varname                        # permet de lire l'input de l'utilisateur
-echo Vous avez entrer: $varname
+echo Vous avez entré: $varname
  
-echo Entrer l annee , exemple 2020 :
+echo Entrer l'annee , exemple 2020 :
 read varyear                        # permet de lire l'input de l'utilisateur
-echo Vous avez entrer: $varyear
+echo Vous avez entré: $varyear
  
 for voic in $(find * -mindepth 2 -maxdepth 2 -type f );do
 		echo 'moving to file ' $voic
