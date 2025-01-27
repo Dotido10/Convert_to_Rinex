@@ -9,7 +9,7 @@ echo Entrer le nom de la station GPS en majuscule, exemple PAPR :
 read varname                        # permet de lire l'input de l'utilisateur
 echo Vous avez entré: $varname
  
-echo Entrer l'annee , exemple 2020 :
+echo Entrer l'année , exemple 2020 :
 read varyear                        # permet de lire l'input de l'utilisateur
 echo Vous avez entré: $varyear
  
